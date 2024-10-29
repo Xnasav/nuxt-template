@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Shadows Into Light";
+    @apply tw-bg-zinc-50;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat";
+    @apply tw-font-medium;
+  }
+
+  h1 {
+    font-size: 3.75rem;
+    line-height: 4.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+    line-height: 3.75rem;
+  }
+
+  h3 {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+  }
+
+  h4 {
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .text-caption {
+    @apply tw-font-montserrat tw-font-light;
+    font-size: 0.675rem;
+    line-height: 1.2rem;
+  }
+}

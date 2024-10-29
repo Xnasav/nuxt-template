@@ -2,6 +2,11 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+### Customise appearance 
+
+- Change theming (nuxt.config.ts), check official PrimeVue documentation for available themes
+- Change desired font (currently only google fonts are supported)
+
 ## Setup
 
 Make sure to install the dependencies:
